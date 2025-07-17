@@ -23,3 +23,10 @@ Vector Store Creation: These chunks are then embedded using a Hugging Face embed
 Question Answering: When a user asks a question, the app retrieves the most relevant chunks from the vector store. These chunks, along with the user's question, are then fed to a Hugging Face large language model (mistralai/Mistral-7B-Instruct-v0.2) to generate a concise and contextually accurate answer.
 
 note:you first need to make a hugging face acc to make your huggingfacehub_api_key putt that key in the code i mentioned it where then run the code
+and install all the dependencies required for this 
+
+pip install streamlit
+pip install youtube-transcript-api
+pip install langchain-google-genai
+pip install langchain-community
+pip install python-dotenv
